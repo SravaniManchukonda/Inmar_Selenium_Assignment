@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Inmar_Selenium">
+  <test name="tests" preserve-order = "true" parallel="false">
+    <classes>
+       <class name="tests.Title"/>
+       <class name="tests.HTMLTags"/>
+       <class name="tests.ImplicitExplicitWaits"/>
+       <class name="tests.NewTab"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

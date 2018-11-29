@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Inmar_Selenium]">
+  <test name="tests(failed)">
+    <classes>
+      <class name="tests.NewTab">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.NewTab -->
+      <class name="tests.Title">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.Title -->
+      <class name="tests.ImplicitExplicitWaits">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.ImplicitExplicitWaits -->
+      <class name="tests.HTMLTags">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="links" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.HTMLTags -->
+    </classes>
+  </test> <!-- tests(failed) -->
+</suite> <!-- Failed suite [Inmar_Selenium] -->
